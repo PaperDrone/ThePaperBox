@@ -1,0 +1,26 @@
+body {
+    max-height: 100vh;
+    height: 100vh;
+    background-image: url("https://static.pexels.com/photos/47426/pexels-photo-47426.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.center-align-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.avatar-container {
+    background-color: transparent;
+}
+
+.avatar-quote {
+    margin: 1px;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.5);
+}
